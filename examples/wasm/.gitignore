@@ -1,0 +1,9 @@
+# WASM build output
+pkg/
+target/
+Cargo.lock
+
+# Deployment artifacts
+_site/
+docs/wasm/
+

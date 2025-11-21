@@ -1,0 +1,25 @@
+{
+  "buildCommand": "cd examples/wasm && wasm-pack build --target web --out-dir pkg",
+  "outputDirectory": "examples/wasm",
+  "headers": [
+    {
+      "source": "/(.*)\\.wasm",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/wasm"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.js",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/javascript"
+        }
+      ]
+    }
+  ]
+}
+

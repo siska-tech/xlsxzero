@@ -1,0 +1,19 @@
+# Netlify デプロイ設定ファイル
+
+[build]
+  command = "cd examples/wasm && wasm-pack build --target web --out-dir pkg"
+  publish = "examples/wasm"
+
+[build.environment]
+  RUST_VERSION = "stable"
+
+[[headers]]
+  for = "/*.wasm"
+  [headers.values]
+    Content-Type = "application/wasm"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Content-Type = "application/javascript"
+
