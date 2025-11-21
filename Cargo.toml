@@ -6,6 +6,7 @@ authors = ["Shion Watanabe"]
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/siska-tech/xlsxzero"
 description = "Pure-Rust Excel parser and Markdown converter for RAG systems"
+readme = "README.md"
 keywords = ["excel", "xlsx", "markdown", "parser", "rag"]
 categories = ["parsing", "text-processing", "data-structures"]
 

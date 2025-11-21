@@ -1,7 +1,7 @@
 # xlsxzero
 
 [![License: MIT OR Apache-2.0](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](LICENSE-MIT)
-[![Rust](https://github.com/your-org/xlsxzero/actions/workflows/test.yml/badge.svg)](https://github.com/your-org/xlsxzero/actions)
+[![Rust](https://github.com/siska-tech/xlsxzero/actions/workflows/test.yml/badge.svg)](https://github.com/siska-tech/xlsxzero/actions)
 
 Pure-Rust Excel parser and Markdown converter for RAG systems.
 
